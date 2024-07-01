@@ -10,6 +10,7 @@ public class Main {
                     System.out.println(num);
                 }
         }
+        System.out.println("     ");
         //task 2
         {
             List<Integer> nums = List.of(1, 1, 2, 3, 4, 4, 5, 5, 6, 7);
@@ -20,6 +21,7 @@ public class Main {
                 }
             }
         }
+        System.out.println("     ");
         //task 3
         {
             var words = List.of("yaz", "uaz", "gaz", "taz", "yaz", "uaz");
@@ -28,6 +30,7 @@ public class Main {
                 System.out.println(s);
 
         }
+        System.out.println("     ");
         //task 4
         {
             List<String> strings = List.of("один", "два", "два", "три", "три", "три");
@@ -39,13 +42,14 @@ public class Main {
                 } else {
                     map.put(word, num + 1);
                 }
-                for (Map.Entry<String,Integer>pair: map.entrySet()){
-                    System.out.println(pair.getKey()+" "+pair.getValue());}
-                for (Integer value: map.values()){
-                    System.out.println(value);}
+
             }
+            for (Map.Entry<String, Integer> pair : map.entrySet()) {
+                System.out.println( pair.getValue());
+
         }
+    }
+}
 
 
     }
-}
